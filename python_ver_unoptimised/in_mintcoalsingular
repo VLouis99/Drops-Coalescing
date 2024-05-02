@@ -1,0 +1,15 @@
+'''
+    indices = []
+    for j in range(len(df.xy.values)):
+    	if df[0][7][0] == df.xy.values[j][0]:
+    		indices.append(j)
+    
+    print('indices is ',indices)
+    for j in indices:
+    	#tcoal[j] = minimum_tc
+    	dcoal[j] = minimum_drop_coords[0]
+    '''	
+    '''	
+    df['tcoal'] = tcoal
+    df['Coal_Drop'] = np.array(dcoal)
+	'''	
